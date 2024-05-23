@@ -1,5 +1,6 @@
 plugins {
     java
+    checkstyle
 }
 
 tasks.named<Jar>("jar") {
